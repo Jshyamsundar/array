@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.inputs{
+    text-transform: capitalize;
+    height: 50px;
+    width: 150px;
+    color: crimson;
+    /* background-color: gray; */
+    outline: none;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+.inputs:hover{
+    background-color: aqua;
+    color: white;
+}
